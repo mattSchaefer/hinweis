@@ -1,0 +1,60 @@
+html, body {height: 100%;}
+
+.navbar{
+   top: -90px;
+   position: fixed;
+   clear:both;
+    
+}
+
+.jumbotron{
+    position: relative;
+    background-color: black;    
+   opacity: .9;
+    
+    
+}
+
+.content{
+    
+    background-color: yellow;
+    opacity: .7;
+    margin-bottom: 0;
+    
+
+}
+
+.content-exterior{
+     top: -30px;
+     background-color: red;
+     margin: 0px;
+     height: 100%;
+     width: 100%;
+     margin: 0;
+     
+}
+
+p{
+    color: black;
+}
+
+.btn{
+    background-color: yellow;
+    opacity: .7;
+}
+
+.dropdown-ele{
+    color: #eeeeee;
+    
+}
+
+
+
+#about-button{
+   
+   position: fixed;
+   float: right;
+   bottom: 0;
+   right: 0;
+ 
+}

@@ -6,9 +6,59 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<body>
 
-<%= yield %>
+<body>
+  <%= yield %>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        
+        
+        
+      </div>
+    </div>
+    
+    <div class = "collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class = "nav navbar-nav">
+        <li>
+          <%= link_to root_path, class: 'navbar-brand' do %>
+            Home
+          <% end %>
+        </li>
+        <li>
+          <%= link_to basic_path, class: 'navbar-brand' do %>
+            Basic Skills
+          <% end %>
+        </li>
+        <li>
+          <%= link_to adjective_endings_path, class: 'navbar-brand' do %>
+            Adjective Endings
+          <% end %>
+        </li>
+        <li class = "dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Translator Sites <span class="caret"></span></a>
+          <ul class = "dropdown-menu navbar-inverse">
+             <li><a href="http://www.leo.org" target="_blank" class = "dropdown-ele">Leo</a></li>
+             <li><a href="http://www.dict.cc/" target="_blank"class = "dropdown-ele">Dict.cc</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    
+    
+  </nav>
+
+
+
+
 
 </body>
+
 </html>
