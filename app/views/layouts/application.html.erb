@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  
 </head>
 
 <body>
@@ -38,15 +39,15 @@
           <% end %>
         </li>
         <li>
-          <%= link_to adjective_endings_path, class: 'navbar-brand' do %>
-            Adjective Endings
+          <%= link_to cases_path, class: 'navbar-brand' do %>
+            Cases
           <% end %>
         </li>
         <li class = "dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Translator Sites <span class="caret"></span></a>
           <ul class = "dropdown-menu navbar-inverse">
-             <li><a href="http://www.leo.org" target="_blank" class = "dropdown-ele">Leo</a></li>
-             <li><a href="http://www.dict.cc/" target="_blank"class = "dropdown-ele">Dict.cc</a></li>
+             <li><a href="http://www.leo.org" target="_blank" class = "dropdown-ele" class = "droplink">Leo</a></li>
+             <li><a href="http://www.dict.cc/" target="_blank"class = "dropdown-ele" class = "droplink">Dict.cc</a></li>
           </ul>
         </li>
       </ul>

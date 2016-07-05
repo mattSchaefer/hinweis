@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
   get '/about' => 'pages#about'
-  get '/adjective_endings' => 'pages#adjective_endings'
+  get '/cases' => 'pages#cases'
   get '/basic' => 'pages#basic'
   root 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.

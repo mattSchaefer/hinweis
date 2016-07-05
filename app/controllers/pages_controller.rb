@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
     def home
     end
-    def adjective_endings
+    def cases
     end
     def basic
     end
