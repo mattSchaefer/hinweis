@@ -14,7 +14,7 @@ group :production do
 end
 
 #=======
-gem 'pg'
+
 #>>>>>>> 62a7c3f39ff6aac81451fd3873f9438927924c9c
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
